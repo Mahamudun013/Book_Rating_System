@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
       <div class="page-header">
-        <h1>Add Book</h1>
+        <h1>Add Book Info</h1>
       </div>
       <h3 class="text-center text-success">{{ Session::get('message') }}</h3>
       <form class="form-horizontal" role="form" method="post" action="{{url('/book/save')}}" name="addBook" enctype="multipart/form-data">
